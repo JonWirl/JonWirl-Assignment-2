@@ -36,6 +36,7 @@ public class Assignment2Application {
 				(theRandomNumber > guess && guess > 0) {
 					System.out.println("Please pick a higher number");
 			} else {
+				i = i - 1;
 				System.out.println("Your guess is not between 1 and 100, please try again");
 			}
 			
